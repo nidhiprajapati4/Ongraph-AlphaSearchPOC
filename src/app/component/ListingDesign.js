@@ -13,7 +13,6 @@ import {
   FormControl,
   InputLabel,
   Select,
-  Link,
   Grid,
 } from "@mui/material";
 import Image from "next/image";
@@ -42,7 +41,7 @@ export default function ListingDesign() {
               width={188}
               height={35}
             />
-              <SearchButton>Search</SearchButton>
+            <SearchButton>Search</SearchButton>
 
             <FormControl variant="standard" sx={{ m: 1, minWidth: 70 }}>
               <InputLabel>Lists</InputLabel>
@@ -87,15 +86,15 @@ export default function ListingDesign() {
         </AppBarInnerGrid>
         <AppBarExtendedGrid>
           <Grid>
-          <Image
-            src="/images/ALphaSearch 1.png"
-            alt="Logo"
-            width={188}
-            height={35}
-          />
+            <Image
+              src="/images/ALphaSearch 1.png"
+              alt="Logo"
+              width={188}
+              height={35}
+            />
           </Grid>
           <Grid>
-          <Toggle />
+            <Toggle />
           </Grid>
         </AppBarExtendedGrid>
       </AppBarMain>

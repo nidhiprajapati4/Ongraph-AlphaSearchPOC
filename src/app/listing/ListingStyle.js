@@ -1,7 +1,6 @@
 import {
   AppBar,
   Grid,
-  List,
   Paper,
   InputLabel,
   TextField,
@@ -58,9 +57,9 @@ export const AppBarRightGrid = styled(Grid)`
 `;
 
 export const AppBarExtendedGrid = styled(Grid)`
-display: none;
+  display: none;
 
-@media screen and (max-width: 900px) {
+  @media screen and (max-width: 900px) {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -121,6 +120,7 @@ export const ToggleStyleGrid = styled(Grid)`
 
   @media screen and (max-width: 600px) {
     margin-top: 8px;
+    margin-right: 2%;
   }
 `;
 
@@ -167,7 +167,6 @@ export const ContentArea = styled(Grid)`
 `;
 
 export const ImageGrid = styled(Grid)`
-
   @media screen and (max-width: 1600px) {
     margin-right: -15px;
   }
@@ -329,24 +328,21 @@ export const DataMainGrid = styled(Grid)`
 export const ContentLeftGrid = styled(Grid)`
   margin: 15px;
 
-@media screen and (max-width: 900px) {
-  width: 20%;
+  @media screen and (max-width: 900px) {
+    width: 20%;
   }
 `;
 
 export const ContentRightGrid = styled(Grid)`
-
   @media screen and (max-width: 900px) {
     width: 80%;
   }
   @media screen and (max-width: 600px) {
-  width: 100%;
+    width: 100%;
   }
 `;
 
-export const ContentTitleGrid = styled(Grid)`
-
-`;
+export const ContentTitleGrid = styled(Grid)``;
 
 export const ListUl = styled.ul`
   display: flex;

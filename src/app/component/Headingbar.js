@@ -14,10 +14,10 @@ export default function Headingbar() {
   return (
     <HeadingGrid>
       <Grid>
-      <H3>
-        Find what you're looking for with
-        <Paragraph>Alphasearch.</Paragraph>
-      </H3>
+        <H3>
+          Find what you're looking for with
+          <Paragraph>Alphasearch.</Paragraph>
+        </H3>
       </Grid>
       <ImageGrid>
         <Image1

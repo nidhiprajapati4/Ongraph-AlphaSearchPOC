@@ -52,11 +52,7 @@ export default function Toggle() {
             <MenuIcon />
           </ToggleStyle>
         </ToggleButtonGroup>
-        <Drawer
-          variant="persistent"
-          anchor="right"
-          open={open}
-        >
+        <Drawer variant="persistent" anchor="right" open={open}>
           <>
             <DrawerHeader>
               <IconButton onClick={handleDrawerClose}>
@@ -69,9 +65,7 @@ export default function Toggle() {
             <Divider />
 
             <Grid style={{ display: "grid", margin: "50px", gap: "25px" }}>
-              <SideSearchButtonGrid>
-                  Search
-              </SideSearchButtonGrid>
+              <SideSearchButtonGrid>Search</SideSearchButtonGrid>
               <FormControl variant="standard" sx={{ m: 1, minWidth: 70 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   Lists
